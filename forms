@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <h1>Sign up form</h1>
+    </head>
+
+    <form action="someurl.php" method="post">
+        <input type="text">
+        <br>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <input type="colour">
+
+        <tr>
+            <br>
+            <br>
+            <td>radio</td>
+            <td>
+                <input type="radio" name="radio">No.1
+                <input type="radio" name="radio">No.2
+                <input type="radio" name="radio">No.3
+                <input type="radio" name="radio">No.4
+            </td>
+        </tr>
+
+        <tr>
+            <br>
+            <br>
+            <td>checkbox</td>
+            <td>
+                <input type="checkbox" name="checkbox">No.1
+                <input type="checkbox" name="checkbox">No.2
+                <input type="checkbox" name="checkbox">No.3
+                <input type="checkbox" name="checkbox">No.4
+            </td>
+        </tr>
+
+        <br>
+        <br>
+        <input type="submit" value="sign me up">
+
+    </form>
+</html> 
